@@ -46,8 +46,9 @@ export default function App() {
         </div>
         <nav className="hidden md:flex gap-6 text-sm font-medium uppercase tracking-widest text-[#7A746B]">
           <span className="text-[#5A5A40] border-b border-[#5A5A40] pb-1 cursor-default">{t('interactive_map')}</span>
-          <span className="hover:text-[#5A5A40] transition-colors cursor-pointer opacity-50">{t('timeline')}</span>
-          <span className="hover:text-[#5A5A40] transition-colors cursor-pointer opacity-50">{t('sparql_console')}</span>
+          <a href="https://www.wikidata.org/" target="_blank" rel="noopener noreferrer" className="hover:text-[#5A5A40] transition-colors cursor-pointer opacity-50 flex items-center gap-1">
+            {t('powered_by_wikidata')}
+          </a>
         </nav>
         
         <div className="flex gap-2 text-xs font-medium uppercase tracking-widest">
