@@ -6,8 +6,7 @@ const resources = {
     translation: {
       title: "Sfax Heritage",
       interactive_map: "Interactive Map",
-      timeline: "Timeline",
-      sparql_console: "SPARQL Console",
+      powered_by_wikidata: "Powered by Wikidata",
       fetching_locations: "Fetching locations from Wikidata...",
       locations: "Locations",
       status: "Status",
@@ -22,8 +21,7 @@ const resources = {
     translation: {
       title: "Patrimoine de Sfax",
       interactive_map: "Carte Interactive",
-      timeline: "Chronologie",
-      sparql_console: "Console SPARQL",
+      powered_by_wikidata: "Propulsé par Wikidata",
       fetching_locations: "Récupération des lieux depuis Wikidata...",
       locations: "Lieux",
       status: "Statut",
@@ -38,8 +36,7 @@ const resources = {
     translation: {
       title: "تراث صفاقس",
       interactive_map: "خريطة تفاعلية",
-      timeline: "الجدول الزمني",
-      sparql_console: "وحدة تحكم SPARQL",
+      powered_by_wikidata: "مدعوم من ويكي بيانات",
       fetching_locations: "جاري جلب الأماكن من ويكي بيانات...",
       locations: "موقع",
       status: "الحالة",
